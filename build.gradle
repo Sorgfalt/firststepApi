@@ -38,7 +38,6 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client:2.6.1'
 	implementation 'org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE'
 	implementation 'org.apache.commons:commons-lang3:3.12.0' // 유틸리티 사용을 위함
-	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	implementation group: 'org.javassist', name: 'javassist', version: '3.28.0-GA'
 }
 
