@@ -21,6 +21,7 @@ HELP.md
 *.ipr
 out/
 bulid
+**/**/application.yml
 !**/src/main/**/out/
 !**/src/test/**/out/
 
