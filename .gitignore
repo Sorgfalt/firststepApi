@@ -1,0 +1,44 @@
+HELP.md
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Gradle ###
+# Exclude Folder List #
+.gradle/
+/build/
+.gradletasknamecache
+
+# Compliled files
+/target/
+**/target
+/example/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+bulid
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### macOS template
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Java ###
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
