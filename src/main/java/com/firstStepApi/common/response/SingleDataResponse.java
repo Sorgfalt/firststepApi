@@ -1,2 +1,5 @@
-package com.firststepapi.common.response;public class SingleDataResponse {
+package com.firstStepApi.common.response;
+
+public class SingleDataResponse<T> extends CommonResponse{
+	T data;
 }
